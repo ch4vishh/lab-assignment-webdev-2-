@@ -1,0 +1,141 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #0a4d9c; 
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#about img {
+  width: 150px; 
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+table {
+  width: 60%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #0a4d9c;
+  padding: 10px;
+}
+
+th {
+  background-color: #0a4d9c;
+  color: white;
+}
+
+.project {
+  background: white;
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+form {
+  width: 60%;
+  margin: 20px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #0a4d9c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #083d7a;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0a4d9c;
+}
+
+#topBtn {
+  background-color: white;
+  color: #0a4d9c;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#topBtn:hover {
+  background-color: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+  table, .project, form {
+    width: 90%;
+  }
+}
